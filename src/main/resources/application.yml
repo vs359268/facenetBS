@@ -1,0 +1,27 @@
+spring:
+  mvc:
+   static-path-pattern: /**
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/facenet_bs?characterEncoding=utf-8&useSSL=false&useUnicode=true&serverTimezone=GMT%2B8
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    show-sql: true
+    open-in-view: false
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+  resources:
+    static-locations: classpath:/web/,classpath:/static/,
+  servlet:
+    multipart:
+      max-file-size: 10MB
+
+server:
+  port: 8080
+
+

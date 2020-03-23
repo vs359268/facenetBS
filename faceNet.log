@@ -1,0 +1,1025 @@
+2020-02-20 13:42:26,332 DEBUG [main] org.springframework.boot.context.logging.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/charsets.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/deploy.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/ext/access-bridge-64.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/ext/cldrdata.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/ext/dnsns.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/ext/jaccess.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/ext/jfxrt.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/ext/localedata.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/ext/nashorn.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/ext/sunec.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/ext/sunjce_provider.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/ext/sunmscapi.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/ext/sunpkcs11.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/ext/zipfs.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/javaws.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/jce.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/jfr.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/jfxswt.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/jsse.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/management-agent.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/plugin.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/resources.jar, file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/rt.jar, file:/E:/ideaWorkspace/facenet/target/classes/, file:/E:/mavenWorkspace/m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.2.4.RELEASE/spring-boot-starter-data-jpa-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/boot/spring-boot-starter-aop/2.2.4.RELEASE/spring-boot-starter-aop-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/spring-aop/5.2.3.RELEASE/spring-aop-5.2.3.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar, file:/E:/mavenWorkspace/m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar, file:/E:/mavenWorkspace/m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar, file:/E:/mavenWorkspace/m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar, file:/E:/mavenWorkspace/m2/repository/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final.jar, file:/E:/mavenWorkspace/m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar, file:/E:/mavenWorkspace/m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar, file:/E:/mavenWorkspace/m2/repository/net/bytebuddy/byte-buddy/1.10.6/byte-buddy-1.10.6.jar, file:/E:/mavenWorkspace/m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar, file:/E:/mavenWorkspace/m2/repository/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final.jar, file:/E:/mavenWorkspace/m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar, file:/E:/mavenWorkspace/m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar, file:/E:/mavenWorkspace/m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar, file:/E:/mavenWorkspace/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar, file:/E:/mavenWorkspace/m2/repository/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2.jar, file:/E:/mavenWorkspace/m2/repository/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8.jar, file:/E:/mavenWorkspace/m2/repository/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1.jar, file:/E:/mavenWorkspace/m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/data/spring-data-jpa/2.2.4.RELEASE/spring-data-jpa-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/data/spring-data-commons/2.2.4.RELEASE/spring-data-commons-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/spring-orm/5.2.3.RELEASE/spring-orm-5.2.3.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/spring-context/5.2.3.RELEASE/spring-context-5.2.3.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/spring-tx/5.2.3.RELEASE/spring-tx-5.2.3.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/spring-aspects/5.2.3.RELEASE/spring-aspects-5.2.3.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.2.4.RELEASE/spring-boot-starter-jdbc-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/boot/spring-boot-starter/2.2.4.RELEASE/spring-boot-starter-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/boot/spring-boot/2.2.4.RELEASE/spring-boot-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.4.RELEASE/spring-boot-autoconfigure-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/boot/spring-boot-starter-logging/2.2.4.RELEASE/spring-boot-starter-logging-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar, file:/E:/mavenWorkspace/m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar, file:/E:/mavenWorkspace/m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.12.1/log4j-to-slf4j-2.12.1.jar, file:/E:/mavenWorkspace/m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar, file:/E:/mavenWorkspace/m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar, file:/E:/mavenWorkspace/m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar, file:/E:/mavenWorkspace/m2/repository/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar, file:/E:/mavenWorkspace/m2/repository/com/zaxxer/HikariCP/3.4.2/HikariCP-3.4.2.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/spring-jdbc/5.2.3.RELEASE/spring-jdbc-5.2.3.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/boot/spring-boot-starter-web/2.2.4.RELEASE/spring-boot-starter-web-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/boot/spring-boot-starter-json/2.2.4.RELEASE/spring-boot-starter-json-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar, file:/E:/mavenWorkspace/m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2.jar, file:/E:/mavenWorkspace/m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar, file:/E:/mavenWorkspace/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.2/jackson-datatype-jdk8-2.10.2.jar, file:/E:/mavenWorkspace/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.2/jackson-datatype-jsr310-2.10.2.jar, file:/E:/mavenWorkspace/m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.2.4.RELEASE/spring-boot-starter-tomcat-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.30/tomcat-embed-core-9.0.30.jar, file:/E:/mavenWorkspace/m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.30/tomcat-embed-el-9.0.30.jar, file:/E:/mavenWorkspace/m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.30/tomcat-embed-websocket-9.0.30.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/boot/spring-boot-starter-validation/2.2.4.RELEASE/spring-boot-starter-validation-2.2.4.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar, file:/E:/mavenWorkspace/m2/repository/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/spring-expression/5.2.3.RELEASE/spring-expression-5.2.3.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.jar, file:/E:/mavenWorkspace/m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar, file:/E:/mavenWorkspace/m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/spring-core/5.2.3.RELEASE/spring-core-5.2.3.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/springframework/spring-jcl/5.2.3.RELEASE/spring-jcl-5.2.3.RELEASE.jar, file:/E:/mavenWorkspace/m2/repository/org/tensorflow/tensorflow/1.13.1/tensorflow-1.13.1.jar, file:/E:/mavenWorkspace/m2/repository/org/tensorflow/libtensorflow/1.13.1/libtensorflow-1.13.1.jar, file:/E:/mavenWorkspace/m2/repository/org/tensorflow/libtensorflow_jni/1.13.1/libtensorflow_jni-1.13.1.jar, file:/E:/ideaWorkspace/facenet/src/main/resources/lib/opencv-340.jar, file:/C:/Program%20Files/IntelliJ%20IDEA%202017.1.4/lib/idea_rt.jar]
+2020-02-20 13:42:26,435 INFO  [main] com.cqmckj.FacenetApplication : Starting FacenetApplication on YL with PID 4300 (E:\ideaWorkspace\facenet\target\classes started by Administrator in E:\ideaWorkspace\facenet)
+2020-02-20 13:42:26,436 DEBUG [main] com.cqmckj.FacenetApplication : Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-20 13:42:26,436 INFO  [main] com.cqmckj.FacenetApplication : No active profile set, falling back to default profiles: default
+2020-02-20 13:42:26,436 DEBUG [main] org.springframework.boot.SpringApplication : Loading source class com.cqmckj.FacenetApplication
+2020-02-20 13:42:26,520 DEBUG [main] org.springframework.boot.context.config.ConfigFileApplicationListener : Loaded config file 'file:/E:/ideaWorkspace/facenet/target/classes/application.yml' (classpath:/application.yml)
+2020-02-20 13:42:26,529 DEBUG [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f9f7dcf
+2020-02-20 13:42:26,609 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-02-20 13:42:26,626 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2020-02-20 13:42:26,767 DEBUG [main] org.springframework.context.annotation.ClassPathBeanDefinitionScanner : Identified candidate component class: file [E:\ideaWorkspace\facenet\target\classes\com\cqmckj\controller\FaceNetController.class]
+2020-02-20 13:42:26,774 DEBUG [main] org.springframework.context.annotation.ClassPathBeanDefinitionScanner : Identified candidate component class: file [E:\ideaWorkspace\facenet\target\classes\com\cqmckj\handle\ExceptionHandle.class]
+2020-02-20 13:42:26,776 DEBUG [main] org.springframework.context.annotation.ClassPathBeanDefinitionScanner : Ignored because not a concrete top-level class: file [E:\ideaWorkspace\facenet\target\classes\com\cqmckj\repository\FaceDataRepository.class]
+2020-02-20 13:42:26,779 DEBUG [main] org.springframework.context.annotation.ClassPathBeanDefinitionScanner : Identified candidate component class: file [E:\ideaWorkspace\facenet\target\classes\com\cqmckj\service\impl\FaceNetServiceImpl.class]
+2020-02-20 13:42:27,221 DEBUG [main] org.springframework.core.env.PropertySourcesPropertyResolver : Found key 'spring.jpa.open-in-view' in PropertySource 'configurationProperties' with value of type Boolean
+2020-02-20 13:42:27,693 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-20 13:42:27,701 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2020-02-20 13:42:27,708 DEBUG [main] org.springframework.boot.autoconfigure.AutoConfigurationPackages : @EnableAutoConfiguration was declared on a class in the package 'com.cqmckj'. Automatic @Repository and @Entity scanning is enabled.
+2020-02-20 13:42:27,710 DEBUG [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.cqmckj.
+2020-02-20 13:42:27,719 DEBUG [main] org.springframework.data.repository.config.RepositoryComponentProvider : Identified candidate component class: file [E:\ideaWorkspace\facenet\target\classes\com\cqmckj\repository\FaceDataRepository.class]
+2020-02-20 13:42:27,746 DEBUG [main] org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider : Identified candidate component class: file [E:\ideaWorkspace\facenet\target\classes\com\cqmckj\service\impl\FaceNetServiceImpl.class]
+2020-02-20 13:42:27,756 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 1 JPA repository interfaces.
+2020-02-20 13:42:27,887 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2020-02-20 13:42:27,891 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBeanDefinitionValidator'
+2020-02-20 13:42:27,891 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2020-02-20 13:42:27,934 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-02-20 13:42:27,935 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'servletComponentRegisteringPostProcessor'
+2020-02-20 13:42:27,939 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor'
+2020-02-20 13:42:27,939 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2020-02-20 13:42:27,940 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-02-20 13:42:27,941 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2020-02-20 13:42:27,952 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-02-20 13:42:27,953 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-02-20 13:42:27,956 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2020-02-20 13:42:27,957 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2020-02-20 13:42:27,957 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2020-02-20 13:42:27,957 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2020-02-20 13:42:27,959 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'methodValidationPostProcessor'
+2020-02-20 13:42:27,984 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'methodValidationPostProcessor' via factory method to bean named 'environment'
+2020-02-20 13:42:27,996 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2020-02-20 13:42:28,021 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'dataSourceInitializerPostProcessor'
+2020-02-20 13:42:28,024 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+2020-02-20 13:42:28,025 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+2020-02-20 13:42:28,027 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2020-02-20 13:42:28,028 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2020-02-20 13:42:28,029 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'dataSourceInitializedPublisher'
+2020-02-20 13:42:28,030 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+2020-02-20 13:42:28,031 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2020-02-20 13:42:28,032 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2020-02-20 13:42:28,043 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-20 13:42:28,046 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'transactionAttributeSource'
+2020-02-20 13:42:28,050 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'transactionInterceptor'
+2020-02-20 13:42:28,051 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2020-02-20 13:42:28,057 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2020-02-20 13:42:28,057 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2020-02-20 13:42:28,067 DEBUG [main] org.springframework.ui.context.support.UiApplicationContextUtils : Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@3fc08eec]
+2020-02-20 13:42:28,068 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+2020-02-20 13:42:28,068 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+2020-02-20 13:42:28,097 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+2020-02-20 13:42:28,097 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+2020-02-20 13:42:28,099 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2020-02-20 13:42:28,099 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2020-02-20 13:42:28,101 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2020-02-20 13:42:28,116 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2020-02-20 13:42:28,117 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+2020-02-20 13:42:28,118 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2020-02-20 13:42:28,118 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+2020-02-20 13:42:28,118 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+2020-02-20 13:42:28,120 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+2020-02-20 13:42:28,120 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2020-02-20 13:42:28,122 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+2020-02-20 13:42:28,122 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+2020-02-20 13:42:28,123 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'spring.http-org.springframework.boot.autoconfigure.http.HttpProperties'
+2020-02-20 13:42:28,127 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'spring.http-org.springframework.boot.autoconfigure.http.HttpProperties'
+2020-02-20 13:42:28,165 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'errorPageCustomizer'
+2020-02-20 13:42:28,165 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2020-02-20 13:42:28,166 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2020-02-20 13:42:28,168 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'dispatcherServletRegistration'
+2020-02-20 13:42:28,168 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2020-02-20 13:42:28,169 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'dispatcherServlet'
+2020-02-20 13:42:28,170 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2020-02-20 13:42:28,172 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2020-02-20 13:42:28,179 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.http-org.springframework.boot.autoconfigure.http.HttpProperties'
+2020-02-20 13:42:28,180 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2020-02-20 13:42:28,197 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+2020-02-20 13:42:28,197 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2020-02-20 13:42:28,199 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'multipartConfigElement'
+2020-02-20 13:42:28,200 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+2020-02-20 13:42:28,201 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2020-02-20 13:42:28,205 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2020-02-20 13:42:28,213 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+2020-02-20 13:42:28,324 DEBUG [main] org.apache.tomcat.util.compat.Jre9Compat : Class not found so assuming code is running on a pre-Java 9 JVM
+java.lang.ClassNotFoundException: java.lang.reflect.InaccessibleObjectException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.tomcat.util.compat.Jre9Compat.<clinit>(Jre9Compat.java:88)
+	at org.apache.tomcat.util.compat.JreCompat.<clinit>(JreCompat.java:49)
+	at org.apache.catalina.startup.Tomcat.<clinit>(Tomcat.java:1393)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.cqmckj.FacenetApplication.main(FacenetApplication.java:18)
+2020-02-20 13:42:28,805 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol port=80)
+2020-02-20 13:42:28,814 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol bindOnInit=false)
+2020-02-20 13:42:28,814 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint bindOnInit=false)
+2020-02-20 13:42:28,816 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol maxPostSize=2097152)
+2020-02-20 13:42:28,816 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint maxPostSize=2097152)
+2020-02-20 13:42:28,826 DEBUG [main] org.apache.catalina.core.ContainerBase : Add child StandardHost[localhost] StandardEngine[Tomcat]
+2020-02-20 13:42:28,827 DEBUG [main] org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory : Code archive: E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot\2.2.4.RELEASE\spring-boot-2.2.4.RELEASE.jar
+2020-02-20 13:42:28,827 DEBUG [main] org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory : Code archive: E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot\2.2.4.RELEASE\spring-boot-2.2.4.RELEASE.jar
+2020-02-20 13:42:28,827 DEBUG [main] org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-02-20 13:42:28,845 DEBUG [main] org.apache.catalina.core.ContainerBase : Add child StandardWrapper[default] TomcatEmbeddedContext[]
+2020-02-20 13:42:28,846 DEBUG [main] org.apache.catalina.core.ContainerBase : Add child TomcatEmbeddedContext[] StandardEngine[Tomcat].StandardHost[localhost]
+2020-02-20 13:42:28,850 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 80 (http)
+2020-02-20 13:42:28,859 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol parseBodyMethods=POST)
+2020-02-20 13:42:28,859 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint parseBodyMethods=POST)
+2020-02-20 13:42:28,860 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-02-20 13:42:28,860 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 13:42:28,863 INFO  [main] org.apache.catalina.core.AprLifecycleListener : An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-20 13:42:28,863 INFO  [main] org.apache.catalina.core.AprLifecycleListener : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-02-20 13:42:28,864 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-20 13:42:28,864 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-20 13:42:29,901 INFO  [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-02-20 13:42:29,902 DEBUG [main] org.apache.catalina.core.StandardContext : Starting ROOT
+2020-02-20 13:42:29,910 DEBUG [main] org.apache.catalina.core.StandardContext : Configuring default Resources
+2020-02-20 13:42:29,964 DEBUG [main] org.apache.catalina.core.StandardContext : Processing standard container startup
+2020-02-20 13:42:29,964 DEBUG [main] org.apache.catalina.loader.WebappLoader : Starting this Loader
+2020-02-20 13:42:29,971 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesRmiTargets=false)
+2020-02-20 13:42:29,973 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesStopThreads=false)
+2020-02-20 13:42:29,973 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesStopTimerThreads=false)
+2020-02-20 13:42:29,973 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesHttpClientKeepAliveThread=true)
+2020-02-20 13:42:29,973 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesObjectStreamClassCaches=false)
+2020-02-20 13:42:29,973 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesObjectStreamClassCaches=false)
+2020-02-20 13:42:29,974 DEBUG [main] org.apache.tomcat.util.IntrospectionUtils : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesThreadLocals=false)
+2020-02-20 13:42:30,000 DEBUG [main] org.apache.catalina.authenticator.AuthenticatorBase : No SingleSignOn Valve is present
+2020-02-20 13:42:30,001 DEBUG [main] org.apache.catalina.core.StandardContext : No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
+2020-02-20 13:42:30,004 DEBUG [main] org.apache.catalina.core.StandardContext : Configured a manager of class [org.apache.catalina.session.StandardManager]
+2020-02-20 13:42:30,012 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-02-20 13:42:30,012 DEBUG [main] org.springframework.web.context.ContextLoader : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-02-20 13:42:30,012 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3483 ms
+2020-02-20 13:42:30,016 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'requestContextFilter'
+2020-02-20 13:42:30,018 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'formContentFilter'
+2020-02-20 13:42:30,018 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2020-02-20 13:42:30,022 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'characterEncodingFilter'
+2020-02-20 13:42:30,028 DEBUG [main] org.springframework.boot.web.servlet.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-02-20 13:42:30,029 DEBUG [main] org.springframework.boot.web.servlet.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-02-20 13:42:30,029 DEBUG [main] org.apache.catalina.core.ContainerBase : Add child StandardWrapper[dispatcherServlet] StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]
+2020-02-20 13:42:30,033 DEBUG [main] org.apache.catalina.core.StandardContext : Configuring application event listeners
+2020-02-20 13:42:30,033 DEBUG [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] :  Configuring event listener class 'org.apache.tomcat.websocket.server.WsContextListener'
+2020-02-20 13:42:30,034 DEBUG [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Sending application start events
+2020-02-20 13:42:30,044 DEBUG [main] org.apache.catalina.session.StandardManager : Start: Loading persisted sessions
+2020-02-20 13:42:30,045 DEBUG [main] org.apache.catalina.session.StandardManager : Loading persisted sessions from [SESSIONS.ser]
+2020-02-20 13:42:30,045 DEBUG [main] org.apache.catalina.session.StandardManager : No persisted data file found
+2020-02-20 13:42:30,045 DEBUG [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Starting filters
+2020-02-20 13:42:30,045 DEBUG [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] :  Starting filter 'requestContextFilter'
+2020-02-20 13:42:30,047 DEBUG [main] org.springframework.boot.web.servlet.filter.OrderedRequestContextFilter : Filter 'requestContextFilter' configured for use
+2020-02-20 13:42:30,047 DEBUG [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] :  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+2020-02-20 13:42:30,047 DEBUG [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] :  Starting filter 'characterEncodingFilter'
+2020-02-20 13:42:30,047 DEBUG [main] org.springframework.boot.web.servlet.filter.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2020-02-20 13:42:30,047 DEBUG [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] :  Starting filter 'formContentFilter'
+2020-02-20 13:42:30,048 DEBUG [main] org.springframework.boot.web.servlet.filter.OrderedFormContentFilter : Filter 'formContentFilter' configured for use
+2020-02-20 13:42:30,048 DEBUG [main] org.apache.catalina.core.StandardContext : Starting completed
+2020-02-20 13:42:30,051 DEBUG [main] org.apache.catalina.mapper.Mapper : Registered host [localhost]
+2020-02-20 13:42:30,051 DEBUG [main] org.apache.catalina.mapper.MapperListener : Register Wrapper [default] in Context [] for service [StandardService[Tomcat]]
+2020-02-20 13:42:30,052 DEBUG [main] org.apache.catalina.mapper.MapperListener : Register Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+2020-02-20 13:42:30,053 DEBUG [main] org.apache.catalina.mapper.MapperListener : Register Context [] for service [StandardService[Tomcat]]
+2020-02-20 13:42:30,053 DEBUG [main] org.apache.catalina.mapper.MapperListener : Register host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2020-02-20 13:42:30,057 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.context.config.internalBeanConfigurerAspect'
+2020-02-20 13:42:30,063 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'entityManagerFactory'
+2020-02-20 13:42:30,064 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+2020-02-20 13:42:30,065 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'dataSource'
+2020-02-20 13:42:30,065 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+2020-02-20 13:42:30,066 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2020-02-20 13:42:30,072 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2020-02-20 13:42:30,085 DEBUG [main] com.zaxxer.hikari.HikariConfig : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-02-20 13:42:30,095 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker'
+2020-02-20 13:42:30,097 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' via constructor to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2020-02-20 13:42:30,097 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f9f7dcf'
+2020-02-20 13:42:30,100 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2020-02-20 13:42:30,104 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2020-02-20 13:42:30,107 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+2020-02-20 13:42:30,107 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2020-02-20 13:42:30,107 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@5d7148e2'
+2020-02-20 13:42:30,107 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2020-02-20 13:42:30,109 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+2020-02-20 13:42:30,110 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+2020-02-20 13:42:30,117 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+2020-02-20 13:42:30,118 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Creating shared instance of singleton bean 'jpaVendorAdapter'
+2020-02-20 13:42:30,148 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+2020-02-20 13:42:30,151 DEBUG [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+2020-02-20 13:42:30,178 DEBUG [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-02-20 13:42:30,192 DEBUG [main] org.hibernate.jpa.internal.util.LogHelper : PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: sun.misc.Launcher$AppClassLoader@18b4aac2
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/E:/ideaWorkspace/facenet/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.cqmckj.bean.FaceData]
+	Mapping files names []
+	Properties []
+2020-02-20 13:42:30,206 DEBUG [main] org.hibernate.integrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2020-02-20 13:42:30,208 DEBUG [main] org.hibernate.integrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2020-02-20 13:42:30,211 DEBUG [main] org.hibernate.integrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2020-02-20 13:42:30,271 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-20 13:42:30,272 DEBUG [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+2020-02-20 13:42:30,457 DEBUG [main] org.hibernate.service.spi.ServiceBinding : Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2020-02-20 13:42:30,466 DEBUG [main] org.hibernate.cache.internal.RegionFactoryInitiator : Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2020-02-20 13:42:30,467 DEBUG [main] org.hibernate.cache.internal.RegionFactoryInitiator : Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2020-02-20 13:42:30,477 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-20 13:42:30,497 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration boolean -> org.hibernate.type.BooleanType@5918c260
+2020-02-20 13:42:30,497 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration boolean -> org.hibernate.type.BooleanType@5918c260
+2020-02-20 13:42:30,497 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@5918c260
+2020-02-20 13:42:30,498 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1f44ddab
+2020-02-20 13:42:30,498 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration true_false -> org.hibernate.type.TrueFalseType@4726927c
+2020-02-20 13:42:30,499 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration yes_no -> org.hibernate.type.YesNoType@28e19366
+2020-02-20 13:42:30,500 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration byte -> org.hibernate.type.ByteType@5cb042da
+2020-02-20 13:42:30,501 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration byte -> org.hibernate.type.ByteType@5cb042da
+2020-02-20 13:42:30,501 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5cb042da
+2020-02-20 13:42:30,502 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration character -> org.hibernate.type.CharacterType@6ffa56fa
+2020-02-20 13:42:30,502 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration char -> org.hibernate.type.CharacterType@6ffa56fa
+2020-02-20 13:42:30,502 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6ffa56fa
+2020-02-20 13:42:30,503 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration short -> org.hibernate.type.ShortType@188b6035
+2020-02-20 13:42:30,503 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration short -> org.hibernate.type.ShortType@188b6035
+2020-02-20 13:42:30,503 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@188b6035
+2020-02-20 13:42:30,504 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration integer -> org.hibernate.type.IntegerType@6240651f
+2020-02-20 13:42:30,504 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration int -> org.hibernate.type.IntegerType@6240651f
+2020-02-20 13:42:30,504 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6240651f
+2020-02-20 13:42:30,505 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration long -> org.hibernate.type.LongType@51a8313b
+2020-02-20 13:42:30,505 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration long -> org.hibernate.type.LongType@51a8313b
+2020-02-20 13:42:30,505 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Long -> org.hibernate.type.LongType@51a8313b
+2020-02-20 13:42:30,506 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration float -> org.hibernate.type.FloatType@2009f9b0
+2020-02-20 13:42:30,506 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration float -> org.hibernate.type.FloatType@2009f9b0
+2020-02-20 13:42:30,506 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2009f9b0
+2020-02-20 13:42:30,507 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration double -> org.hibernate.type.DoubleType@3bd3d05e
+2020-02-20 13:42:30,507 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration double -> org.hibernate.type.DoubleType@3bd3d05e
+2020-02-20 13:42:30,507 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@3bd3d05e
+2020-02-20 13:42:30,508 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@459cfcca
+2020-02-20 13:42:30,508 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@459cfcca
+2020-02-20 13:42:30,509 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7acfb656
+2020-02-20 13:42:30,509 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7acfb656
+2020-02-20 13:42:30,510 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration string -> org.hibernate.type.StringType@1416a80a
+2020-02-20 13:42:30,510 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.String -> org.hibernate.type.StringType@1416a80a
+2020-02-20 13:42:30,511 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@25a5c7db
+2020-02-20 13:42:30,512 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@20411320
+2020-02-20 13:42:30,513 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration url -> org.hibernate.type.UrlType@58b71ceb
+2020-02-20 13:42:30,513 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.net.URL -> org.hibernate.type.UrlType@58b71ceb
+2020-02-20 13:42:30,514 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration Duration -> org.hibernate.type.DurationType@3c46dcbe
+2020-02-20 13:42:30,514 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@3c46dcbe
+2020-02-20 13:42:30,515 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration Instant -> org.hibernate.type.InstantType@51d9b06c
+2020-02-20 13:42:30,515 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@51d9b06c
+2020-02-20 13:42:30,516 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@38a1a26
+2020-02-20 13:42:30,516 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@38a1a26
+2020-02-20 13:42:30,517 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@1c5c616f
+2020-02-20 13:42:30,517 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@1c5c616f
+2020-02-20 13:42:30,518 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@ca93621
+2020-02-20 13:42:30,518 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@ca93621
+2020-02-20 13:42:30,519 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@3d278b4d
+2020-02-20 13:42:30,520 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@3d278b4d
+2020-02-20 13:42:30,521 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@184fb68d
+2020-02-20 13:42:30,521 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@184fb68d
+2020-02-20 13:42:30,524 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7bca6fac
+2020-02-20 13:42:30,524 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7bca6fac
+2020-02-20 13:42:30,525 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration date -> org.hibernate.type.DateType@aa149ed
+2020-02-20 13:42:30,525 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Date -> org.hibernate.type.DateType@aa149ed
+2020-02-20 13:42:30,527 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration time -> org.hibernate.type.TimeType@8ee0c23
+2020-02-20 13:42:30,527 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@8ee0c23
+2020-02-20 13:42:30,528 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration timestamp -> org.hibernate.type.TimestampType@2f508f3c
+2020-02-20 13:42:30,528 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@2f508f3c
+2020-02-20 13:42:30,529 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@2f508f3c
+2020-02-20 13:42:30,530 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@173797f0
+2020-02-20 13:42:30,531 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration calendar -> org.hibernate.type.CalendarType@33d53216
+2020-02-20 13:42:30,531 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@33d53216
+2020-02-20 13:42:30,531 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@33d53216
+2020-02-20 13:42:30,532 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@1e141e42
+2020-02-20 13:42:30,533 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration locale -> org.hibernate.type.LocaleType@3db663d0
+2020-02-20 13:42:30,533 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3db663d0
+2020-02-20 13:42:30,534 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration currency -> org.hibernate.type.CurrencyType@151ef57f
+2020-02-20 13:42:30,534 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@151ef57f
+2020-02-20 13:42:30,536 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration timezone -> org.hibernate.type.TimeZoneType@149c3204
+2020-02-20 13:42:30,537 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@149c3204
+2020-02-20 13:42:30,537 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration class -> org.hibernate.type.ClassType@21e20ad5
+2020-02-20 13:42:30,538 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@21e20ad5
+2020-02-20 13:42:30,539 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1846579f
+2020-02-20 13:42:30,539 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1846579f
+2020-02-20 13:42:30,540 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@75fc1992
+2020-02-20 13:42:30,541 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration binary -> org.hibernate.type.BinaryType@3672276e
+2020-02-20 13:42:30,541 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration byte[] -> org.hibernate.type.BinaryType@3672276e
+2020-02-20 13:42:30,542 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration [B -> org.hibernate.type.BinaryType@3672276e
+2020-02-20 13:42:30,543 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@24b4d544
+2020-02-20 13:42:30,543 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@24b4d544
+2020-02-20 13:42:30,543 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@24b4d544
+2020-02-20 13:42:30,544 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration row_version -> org.hibernate.type.RowVersionType@40e60ece
+2020-02-20 13:42:30,544 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration image -> org.hibernate.type.ImageType@5ac6c4f2
+2020-02-20 13:42:30,545 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration characters -> org.hibernate.type.CharArrayType@53a665ad
+2020-02-20 13:42:30,545 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration char[] -> org.hibernate.type.CharArrayType@53a665ad
+2020-02-20 13:42:30,546 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration [C -> org.hibernate.type.CharArrayType@53a665ad
+2020-02-20 13:42:30,547 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3bfc6a5e
+2020-02-20 13:42:30,547 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3bfc6a5e
+2020-02-20 13:42:30,547 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3bfc6a5e
+2020-02-20 13:42:30,548 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration text -> org.hibernate.type.TextType@6d7cada5
+2020-02-20 13:42:30,548 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration ntext -> org.hibernate.type.NTextType@b0fc838
+2020-02-20 13:42:30,549 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration blob -> org.hibernate.type.BlobType@2954b5ea
+2020-02-20 13:42:30,550 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2954b5ea
+2020-02-20 13:42:30,550 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@37d871c2
+2020-02-20 13:42:30,551 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration clob -> org.hibernate.type.ClobType@476e8796
+2020-02-20 13:42:30,552 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@476e8796
+2020-02-20 13:42:30,553 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration nclob -> org.hibernate.type.NClobType@61d84e08
+2020-02-20 13:42:30,554 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@61d84e08
+2020-02-20 13:42:30,554 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@52d6cd34
+2020-02-20 13:42:30,554 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6428591a
+2020-02-20 13:42:30,556 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration serializable -> org.hibernate.type.SerializableType@acdcf71
+2020-02-20 13:42:30,559 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration object -> org.hibernate.type.ObjectType@6794ac0b
+2020-02-20 13:42:30,559 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6794ac0b
+2020-02-20 13:42:30,559 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@17b6d426
+2020-02-20 13:42:30,560 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5580d62f
+2020-02-20 13:42:30,560 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@16872c4d
+2020-02-20 13:42:30,560 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@671facee
+2020-02-20 13:42:30,560 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@46a953cf
+2020-02-20 13:42:30,560 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@154bd49b
+2020-02-20 13:42:30,560 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3a01773b
+2020-02-20 13:42:30,560 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@20e3c449
+2020-02-20 13:42:30,566 DEBUG [main] org.hibernate.boot.internal.BootstrapContextImpl : Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@34f392be] into BootstrapContext; was [null]
+2020-02-20 13:42:30,567 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@34f392be) [was null]
+2020-02-20 13:42:30,568 DEBUG [main] org.hibernate.boot.internal.BootstrapContextImpl : Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@4422dd48] into BootstrapContext; was [null]
+2020-02-20 13:42:30,568 DEBUG [main] org.hibernate.boot.internal.BootstrapContextImpl : Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@764cba] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@523d6bdb]
+2020-02-20 13:42:30,576 DEBUG [main] org.hibernate.boot.internal.BootstrapContextImpl : Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@34f392be]
+2020-02-20 13:42:30,576 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@34f392be]
+2020-02-20 13:42:30,581 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2020-02-20 13:42:30,582 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2020-02-20 13:42:30,583 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2020-02-20 13:42:30,583 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2020-02-20 13:42:30,583 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2020-02-20 13:42:30,584 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2020-02-20 13:42:30,585 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2020-02-20 13:42:30,586 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-02-20 13:42:30,587 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2020-02-20 13:42:30,588 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2020-02-20 13:42:30,588 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2020-02-20 13:42:30,589 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2020-02-20 13:42:30,589 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-02-20 13:42:30,590 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2020-02-20 13:42:30,596 DEBUG [main] com.zaxxer.hikari.HikariConfig : HikariPool-1 - configuration:
+2020-02-20 13:42:30,614 DEBUG [main] com.zaxxer.hikari.HikariConfig : allowPoolSuspension.............false
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : autoCommit......................true
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : catalog.........................none
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : connectionInitSql...............none
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : connectionTestQuery.............none
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : connectionTimeout...............30000
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : dataSource......................none
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : dataSourceClassName.............none
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : dataSourceJNDI..................none
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : dataSourceProperties............{password=<masked>}
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : driverClassName................."com.mysql.cj.jdbc.Driver"
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : healthCheckProperties...........{}
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : healthCheckRegistry.............none
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : idleTimeout.....................600000
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : initializationFailTimeout.......1
+2020-02-20 13:42:30,615 DEBUG [main] com.zaxxer.hikari.HikariConfig : isolateInternalQueries..........false
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/facenet?characterEncoding=utf-8&useSSL=false&useUnicode=true&serverTimezone=GMT%2B8
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : leakDetectionThreshold..........0
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : maxLifetime.....................1800000
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : maximumPoolSize.................10
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : metricRegistry..................none
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : metricsTrackerFactory...........none
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : minimumIdle.....................10
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : password........................<masked>
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : poolName........................"HikariPool-1"
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : readOnly........................false
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : registerMbeans..................false
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : scheduledExecutor...............none
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : schema..........................none
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : threadFactory...................internal
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : transactionIsolation............default
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : username........................"root"
+2020-02-20 13:42:30,616 DEBUG [main] com.zaxxer.hikari.HikariConfig : validationTimeout...............5000
+2020-02-20 13:42:30,616 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-02-20 13:42:31,900 DEBUG [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Failed to create/setup connection: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-02-20 13:42:31,904 DEBUG [main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:175)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1202)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1233)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.cqmckj.FacenetApplication.main(FacenetApplication.java:18)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 49 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 52 common frames omitted
+2020-02-20 13:42:32,917 ERROR [main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:175)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1202)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1233)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.cqmckj.FacenetApplication.main(FacenetApplication.java:18)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 49 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 52 common frames omitted
+2020-02-20 13:42:32,926 WARN  [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator : HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-02-20 13:42:32,938 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-20 13:42:32,954 DEBUG [main] org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder : IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2020-02-20 13:42:32,959 DEBUG [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl : HHH000422: Disabling contextual LOB creation as connection was null
+2020-02-20 13:42:32,964 DEBUG [main] org.hibernate.boot.model.relational.Namespace : Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2020-02-20 13:42:32,967 DEBUG [main] org.hibernate.type.spi.TypeConfiguration$Scope : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@587a1cfb] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@48528634]
+2020-02-20 13:42:32,985 DEBUG [main] org.hibernate.cfg.AnnotationBinder : Binding entity from annotated class: com.cqmckj.bean.FaceData
+2020-02-20 13:42:33,000 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2020-02-20 13:42:33,004 DEBUG [main] org.hibernate.cfg.annotations.EntityBinder : Import with entity name FaceData
+2020-02-20 13:42:33,007 DEBUG [main] org.hibernate.cfg.annotations.EntityBinder : Bind entity com.cqmckj.bean.FaceData on table face_data
+2020-02-20 13:42:33,025 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(face_data), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2020-02-20 13:42:33,027 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property id with lazy=false
+2020-02-20 13:42:33,028 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.cqmckj.bean.FaceData:id]
+2020-02-20 13:42:33,030 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for id
+2020-02-20 13:42:33,032 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property id
+2020-02-20 13:42:33,036 DEBUG [main] org.hibernate.cfg.BinderHelper : #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2020-02-20 13:42:33,036 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(face_data), mappingColumn=create_time, insertable=true, updatable=true, unique=false}
+2020-02-20 13:42:33,036 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property createTime with lazy=false
+2020-02-20 13:42:33,036 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.cqmckj.bean.FaceData:createTime]
+2020-02-20 13:42:33,036 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for createTime
+2020-02-20 13:42:33,037 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property createTime
+2020-02-20 13:42:33,037 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(face_data), mappingColumn=face_data, insertable=true, updatable=true, unique=false}
+2020-02-20 13:42:33,038 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property data with lazy=false
+2020-02-20 13:42:33,038 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.cqmckj.bean.FaceData:data]
+2020-02-20 13:42:33,038 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for data
+2020-02-20 13:42:33,038 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property data
+2020-02-20 13:42:33,038 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(face_data), mappingColumn=face_group, insertable=true, updatable=true, unique=false}
+2020-02-20 13:42:33,038 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property group with lazy=false
+2020-02-20 13:42:33,038 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.cqmckj.bean.FaceData:group]
+2020-02-20 13:42:33,038 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for group
+2020-02-20 13:42:33,038 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property group
+2020-02-20 13:42:33,038 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(face_data), mappingColumn=face_key, insertable=true, updatable=true, unique=false}
+2020-02-20 13:42:33,039 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property key with lazy=false
+2020-02-20 13:42:33,039 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.cqmckj.bean.FaceData:key]
+2020-02-20 13:42:33,039 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for key
+2020-02-20 13:42:33,039 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property key
+2020-02-20 13:42:33,039 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(face_data), mappingColumn=face_name, insertable=true, updatable=true, unique=false}
+2020-02-20 13:42:33,039 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property name with lazy=false
+2020-02-20 13:42:33,039 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.cqmckj.bean.FaceData:name]
+2020-02-20 13:42:33,039 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for name
+2020-02-20 13:42:33,039 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property name
+2020-02-20 13:42:33,039 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(face_data), mappingColumn=update_time, insertable=true, updatable=true, unique=false}
+2020-02-20 13:42:33,039 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property updateTime with lazy=false
+2020-02-20 13:42:33,041 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.cqmckj.bean.FaceData:updateTime]
+2020-02-20 13:42:33,041 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for updateTime
+2020-02-20 13:42:33,041 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property updateTime
+2020-02-20 13:42:33,043 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for id
+2020-02-20 13:42:33,043 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for createTime
+2020-02-20 13:42:33,043 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for data
+2020-02-20 13:42:33,043 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for group
+2020-02-20 13:42:33,043 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for key
+2020-02-20 13:42:33,043 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for name
+2020-02-20 13:42:33,043 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for updateTime
+2020-02-20 13:42:33,044 DEBUG [main] org.hibernate.mapping.PrimaryKey : Forcing column [id] to be non-null as it is part of the primary key for table [face_data]
+2020-02-20 13:42:33,060 DEBUG [main] org.hibernate.internal.SessionFactoryImpl : Building session factory
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : SessionFactory name : null
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Automatic flush during beforeCompletion(): enabled
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Automatic session close at end of transaction: disabled
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Statistics: disabled
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Deleted entity synthetic identifier rollback: disabled
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Default entity-mode: pojo
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Allow initialization of lazy state outside session : disabled
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Using BatchFetchStyle : LEGACY
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Default batch fetch size: -1
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Maximum outer join fetch depth: 2
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Default null ordering: NONE
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Order SQL updates by primary key: disabled
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Order SQL inserts for batching: disabled
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : multi-tenancy strategy : NONE
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : JTA Track by Thread: enabled
+2020-02-20 13:42:33,061 DEBUG [main] org.hibernate.cfg.Settings : Query language substitutions: {}
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Named query checking : enabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Second-level cache: disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Second-level query cache: disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Second-level query cache factory: null
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Second-level cache region prefix: null
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Optimize second-level cache for minimal puts: disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Structured second-level cache entries: disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Second-level cache direct-reference entries: disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Automatic eviction of collection cache: disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : JDBC batch size: 0
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : JDBC batch updates for versioned data: enabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Scrollable result sets: disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Wrap result sets: disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : JDBC3 getGeneratedKeys(): disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : JDBC result set fetch size: null
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Connection release mode: ON_CLOSE
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : Generate SQL with comments: disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : JPA compliance - query : disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : JPA compliance - closed-handling : disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : JPA compliance - lists : disabled
+2020-02-20 13:42:33,062 DEBUG [main] org.hibernate.cfg.Settings : JPA compliance - transactions : disabled
+2020-02-20 13:42:33,109 DEBUG [main] org.hibernate.jpa.event.internal.CallbackBuilderLegacyImpl : Adding touchForUpdate as PreUpdate callback for entity com.cqmckj.bean.FaceData
+2020-02-20 13:42:33,110 DEBUG [main] org.hibernate.jpa.event.internal.CallbackBuilderLegacyImpl : Adding touchForCreate as PrePersist callback for entity com.cqmckj.bean.FaceData
+2020-02-20 13:42:33,118 DEBUG [main] org.hibernate.internal.SessionFactoryImpl : Session factory constructed with filter configurations : {}
+2020-02-20 13:42:33,118 DEBUG [main] org.hibernate.internal.SessionFactoryImpl : Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, hibernate.id.new_generator_mappings=true, java.specification.version=1.8, file.encoding.pkg=sun.io, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@5e922647, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=GBK, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;E:\ideaWorkspace\facenet\target\classes;E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.2.4.RELEASE\spring-boot-starter-data-jpa-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot-starter-aop\2.2.4.RELEASE\spring-boot-starter-aop-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\spring-aop\5.2.3.RELEASE\spring-aop-5.2.3.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\aspectj\aspectjweaver\1.9.5\aspectjweaver-1.9.5.jar;E:\mavenWorkspace\m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;E:\mavenWorkspace\m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;E:\mavenWorkspace\m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;E:\mavenWorkspace\m2\repository\org\hibernate\hibernate-core\5.4.10.Final\hibernate-core-5.4.10.Final.jar;E:\mavenWorkspace\m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;E:\mavenWorkspace\m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;E:\mavenWorkspace\m2\repository\net\bytebuddy\byte-buddy\1.10.6\byte-buddy-1.10.6.jar;E:\mavenWorkspace\m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;E:\mavenWorkspace\m2\repository\org\jboss\jandex\2.1.1.Final\jandex-2.1.1.Final.jar;E:\mavenWorkspace\m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;E:\mavenWorkspace\m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;E:\mavenWorkspace\m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.0.Final\hibernate-commons-annotations-5.1.0.Final.jar;E:\mavenWorkspace\m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar;E:\mavenWorkspace\m2\repository\org\glassfish\jaxb\txw2\2.3.2\txw2-2.3.2.jar;E:\mavenWorkspace\m2\repository\com\sun\istack\istack-commons-runtime\3.0.8\istack-commons-runtime-3.0.8.jar;E:\mavenWorkspace\m2\repository\org\jvnet\staxex\stax-ex\1.8.1\stax-ex-1.8.1.jar;E:\mavenWorkspace\m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.16\FastInfoset-1.2.16.jar;E:\mavenWorkspace\m2\repository\org\springframework\data\spring-data-jpa\2.2.4.RELEASE\spring-data-jpa-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\data\spring-data-commons\2.2.4.RELEASE\spring-data-commons-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\spring-orm\5.2.3.RELEASE\spring-orm-5.2.3.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\spring-context\5.2.3.RELEASE\spring-context-5.2.3.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\spring-tx\5.2.3.RELEASE\spring-tx-5.2.3.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\spring-beans\5.2.3.RELEASE\spring-beans-5.2.3.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;E:\mavenWorkspace\m2\repository\org\springframework\spring-aspects\5.2.3.RELEASE\spring-aspects-5.2.3.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.2.4.RELEASE\spring-boot-starter-jdbc-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot-starter\2.2.4.RELEASE\spring-boot-starter-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot\2.2.4.RELEASE\spring-boot-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.2.4.RELEASE\spring-boot-autoconfigure-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot-starter-logging\2.2.4.RELEASE\spring-boot-starter-logging-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;E:\mavenWorkspace\m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;E:\mavenWorkspace\m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.12.1\log4j-to-slf4j-2.12.1.jar;E:\mavenWorkspace\m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;E:\mavenWorkspace\m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;E:\mavenWorkspace\m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;E:\mavenWorkspace\m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar;E:\mavenWorkspace\m2\repository\com\zaxxer\HikariCP\3.4.2\HikariCP-3.4.2.jar;E:\mavenWorkspace\m2\repository\org\springframework\spring-jdbc\5.2.3.RELEASE\spring-jdbc-5.2.3.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot-starter-web\2.2.4.RELEASE\spring-boot-starter-web-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot-starter-json\2.2.4.RELEASE\spring-boot-starter-json-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.2\jackson-databind-2.10.2.jar;E:\mavenWorkspace\m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.2\jackson-annotations-2.10.2.jar;E:\mavenWorkspace\m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.2\jackson-core-2.10.2.jar;E:\mavenWorkspace\m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.10.2\jackson-datatype-jdk8-2.10.2.jar;E:\mavenWorkspace\m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.2\jackson-datatype-jsr310-2.10.2.jar;E:\mavenWorkspace\m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.10.2\jackson-module-parameter-names-2.10.2.jar;E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.2.4.RELEASE\spring-boot-starter-tomcat-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.30\tomcat-embed-core-9.0.30.jar;E:\mavenWorkspace\m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.30\tomcat-embed-el-9.0.30.jar;E:\mavenWorkspace\m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.30\tomcat-embed-websocket-9.0.30.jar;E:\mavenWorkspace\m2\repository\org\springframework\boot\spring-boot-starter-validation\2.2.4.RELEASE\spring-boot-starter-validation-2.2.4.RELEASE.jar;E:\mavenWorkspace\m2\repository\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;E:\mavenWorkspace\m2\repository\org\hibernate\validator\hibernate-validator\6.0.18.Final\hibernate-validator-6.0.18.Final.jar;E:\mavenWorkspace\m2\repository\org\springframework\spring-web\5.2.3.RELEASE\spring-web-5.2.3.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\spring-webmvc\5.2.3.RELEASE\spring-webmvc-5.2.3.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\spring-expression\5.2.3.RELEASE\spring-expression-5.2.3.RELEASE.jar;E:\mavenWorkspace\m2\repository\mysql\mysql-connector-java\8.0.19\mysql-connector-java-8.0.19.jar;E:\mavenWorkspace\m2\repository\org\projectlombok\lombok\1.18.10\lombok-1.18.10.jar;E:\mavenWorkspace\m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;E:\mavenWorkspace\m2\repository\org\springframework\spring-core\5.2.3.RELEASE\spring-core-5.2.3.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\springframework\spring-jcl\5.2.3.RELEASE\spring-jcl-5.2.3.RELEASE.jar;E:\mavenWorkspace\m2\repository\org\tensorflow\tensorflow\1.13.1\tensorflow-1.13.1.jar;E:\mavenWorkspace\m2\repository\org\tensorflow\libtensorflow\1.13.1\libtensorflow-1.13.1.jar;E:\mavenWorkspace\m2\repository\org\tensorflow\libtensorflow_jni\1.13.1\libtensorflow_jni-1.13.1.jar;E:\ideaWorkspace\facenet\src\main\resources\lib\opencv-340.jar;C:\Program Files\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar, java.vm.vendor=Oracle Corporation, LOG_PATH=C:/logs, sun.arch.data.model=64, user.variant=, java.vendor.url=http://java.oracle.com/, catalina.useNaming=false, user.timezone=Asia/Shanghai, os.name=Windows 7, java.vm.specification.version=1.8, javax.persistence.validation.mode=AUTO, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_161\jre\bin, sun.java.command=com.cqmckj.FacenetApplication, javax.persistence.nonJtaDataSource=HikariDataSource (null), hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@433c6abb, javax.persistence.sharedCache.mode=UNSPECIFIED, sun.cpu.endian=little, user.home=C:\Users\Administrator.PC-20160823BFLX, user.language=zh, java.specification.vendor=Oracle Corporation, java.home=C:\Program Files\Java\jdk1.8.0_161\jre, file.separator=\, spring.output.ansi.enabled=always, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.awt.headless=true, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_161-b12, user.name=Administrator, path.separator=;, os.version=6.1, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, FILE_LOG_PATTERN=%d %-5level [%thread] %logger : %msg%n, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, LOG_FILE=faceNet.log, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\ADMINI~1.PC-\AppData\Local\Temp\, catalina.home=C:\Users\Administrator.PC-20160823BFLX\AppData\Local\Temp\tomcat.6734643826705837349.80, java.version=1.8.0_161, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=E:\ideaWorkspace\facenet, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=4300, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=Service Pack 1, catalina.base=C:\Users\Administrator.PC-20160823BFLX\AppData\Local\Temp\tomcat.6734643826705837349.80, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@288f173f, java.library.path=C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;D:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\apache-tomcat-8.5.11\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\MongoDB\bin;C:\Program Files (x86)\Tesseract-OCR;E:\Android\sdk\platform-tools;D:\VisualSVN Server\bin;D:\TortoiseSVN\bin;C:\apache-maven-3.5.3\bin;D:\Git\cmd;D:\Microsoft VS Code\bin;C:\Program Files\dotnet\;D:\nodejs\;C:\Program Files\python\Scripts;C:\Program Files\python;C:\Users\Administrator.PC-20160823BFLX\AppData\Roaming\npm;D:\PhpStorm 2019.1.2\bin;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.161-b12, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, hibernate.connection.datasource=HikariDataSource (null), CONSOLE_LOG_PATTERN=%d %-5level %logger : %msg%n, java.class.version=52.0}
+2020-02-20 13:42:33,137 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2020-02-20 13:42:33,137 DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2020-02-20 13:42:33,137 DEBUG [main] org.hibernate.validator.internal.xml.config.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2020-02-20 13:42:33,137 DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2020-02-20 13:42:33,137 DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2020-02-20 13:42:33,138 DEBUG [main] org.hibernate.validator.internal.xml.config.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2020-02-20 13:42:33,145 DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2020-02-20 13:42:33,146 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2020-02-20 13:42:33,146 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2020-02-20 13:42:33,146 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2020-02-20 13:42:33,146 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2020-02-20 13:42:33,146 DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2020-02-20 13:42:33,147 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.cqmckj.bean.FaceData] is safe
+2020-02-20 13:42:33,148 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.cqmckj.bean.FaceData
+2020-02-20 13:42:33,190 DEBUG [main] org.hibernate.secure.spi.JaccIntegrator : Skipping JACC integration as it was not enabled
+2020-02-20 13:42:33,191 DEBUG [main] org.hibernate.internal.SessionFactoryImpl : Instantiated session factory
+2020-02-20 13:42:33,191 DEBUG [main] org.hibernate.type.spi.TypeConfiguration$Scope : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@587a1cfb] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@28237492]
+2020-02-20 13:42:33,220 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.cqmckj.bean.FaceData] is safe
+2020-02-20 13:42:33,220 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.cqmckj.bean.FaceData
+2020-02-20 13:42:33,233 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.cqmckj.bean.FaceData] is safe
+2020-02-20 13:42:33,233 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.cqmckj.bean.FaceData
+2020-02-20 13:42:33,432 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister : Static SQL for entity: com.cqmckj.bean.FaceData
+2020-02-20 13:42:33,432 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister :  Version select: select id from face_data where id =?
+2020-02-20 13:42:33,432 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister :  Snapshot select: select facedata_.id, facedata_.create_time as create_t2_0_, facedata_.face_data as face_dat3_0_, facedata_.face_group as face_gro4_0_, facedata_.face_key as face_key5_0_, facedata_.face_name as face_nam6_0_, facedata_.update_time as update_t7_0_ from face_data facedata_ where facedata_.id=?
+2020-02-20 13:42:33,432 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister :  Insert 0: insert into face_data (create_time, face_data, face_group, face_key, face_name, update_time, id) values (?, ?, ?, ?, ?, ?, ?)
+2020-02-20 13:42:33,432 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister :  Update 0: update face_data set create_time=?, face_data=?, face_group=?, face_key=?, face_name=?, update_time=? where id=?
+2020-02-20 13:42:33,432 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister :  Delete 0: delete from face_data where id=?
+2020-02-20 13:42:33,432 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister :  Identity insert: insert into face_data (create_time, face_data, face_group, face_key, face_name, update_time) values (?, ?, ?, ?, ?, ?)
+2020-02-20 13:42:33,453 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@77d4ac52]
+2020-02-20 13:42:33,454 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : createTime
+2020-02-20 13:42:33,454 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : data
+2020-02-20 13:42:33,454 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : group
+2020-02-20 13:42:33,454 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : key
+2020-02-20 13:42:33,454 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2020-02-20 13:42:33,454 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : updateTime
+2020-02-20 13:42:33,454 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2020-02-20 13:42:33,462 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2020-02-20 13:42:33,468 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.cqmckj.bean.FaceData)
+    - Returns
+       - EntityReturnImpl(entity=com.cqmckj.bean.FaceData, querySpaceUid=<gen:0>, path=com.cqmckj.bean.FaceData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.cqmckj.bean.FaceData)
+          - SQL table alias mapping - facedata0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2020-02-20 13:42:33,470 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.cqmckj.bean.FaceData [NONE]: select facedata0_.id as id1_0_0_, facedata0_.create_time as create_t2_0_0_, facedata0_.face_data as face_dat3_0_0_, facedata0_.face_group as face_gro4_0_0_, facedata0_.face_key as face_key5_0_0_, facedata0_.face_name as face_nam6_0_0_, facedata0_.update_time as update_t7_0_0_ from face_data facedata0_ where facedata0_.id=?
+2020-02-20 13:42:33,470 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7f323b3a]
+2020-02-20 13:42:33,470 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : createTime
+2020-02-20 13:42:33,470 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : data
+2020-02-20 13:42:33,470 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : group
+2020-02-20 13:42:33,470 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : key
+2020-02-20 13:42:33,470 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2020-02-20 13:42:33,470 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : updateTime
+2020-02-20 13:42:33,470 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2020-02-20 13:42:33,470 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2020-02-20 13:42:33,471 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.cqmckj.bean.FaceData)
+    - Returns
+       - EntityReturnImpl(entity=com.cqmckj.bean.FaceData, querySpaceUid=<gen:0>, path=com.cqmckj.bean.FaceData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.cqmckj.bean.FaceData)
+          - SQL table alias mapping - facedata0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2020-02-20 13:42:33,471 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.cqmckj.bean.FaceData [READ]: select facedata0_.id as id1_0_0_, facedata0_.create_time as create_t2_0_0_, facedata0_.face_data as face_dat3_0_0_, facedata0_.face_group as face_gro4_0_0_, facedata0_.face_key as face_key5_0_0_, facedata0_.face_name as face_nam6_0_0_, facedata0_.update_time as update_t7_0_0_ from face_data facedata0_ where facedata0_.id=?
+2020-02-20 13:42:33,479 DEBUG [main] org.hibernate.loader.Loader : Static select for action ACTION_MERGE on entity com.cqmckj.bean.FaceData: select facedata0_.id as id1_0_0_, facedata0_.create_time as create_t2_0_0_, facedata0_.face_data as face_dat3_0_0_, facedata0_.face_group as face_gro4_0_0_, facedata0_.face_key as face_key5_0_0_, facedata0_.face_name as face_nam6_0_0_, facedata0_.update_time as update_t7_0_0_ from face_data facedata0_ where facedata0_.id=?
+2020-02-20 13:42:33,480 DEBUG [main] org.hibernate.loader.Loader : Static select for action ACTION_REFRESH on entity com.cqmckj.bean.FaceData: select facedata0_.id as id1_0_0_, facedata0_.create_time as create_t2_0_0_, facedata0_.face_data as face_dat3_0_0_, facedata0_.face_group as face_gro4_0_0_, facedata0_.face_key as face_key5_0_0_, facedata0_.face_name as face_nam6_0_0_, facedata0_.update_time as update_t7_0_0_ from face_data facedata0_ where facedata0_.id=?
+2020-02-20 13:42:33,511 DEBUG [main] com.zaxxer.hikari.HikariConfig : HikariPool-1 - configuration:
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : allowPoolSuspension.............false
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : autoCommit......................true
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : catalog.........................none
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : connectionInitSql...............none
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : connectionTestQuery.............none
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : connectionTimeout...............30000
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : dataSource......................none
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : dataSourceClassName.............none
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : dataSourceJNDI..................none
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : dataSourceProperties............{password=<masked>}
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : driverClassName................."com.mysql.cj.jdbc.Driver"
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : healthCheckProperties...........{}
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : healthCheckRegistry.............none
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : idleTimeout.....................600000
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : initializationFailTimeout.......1
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : isolateInternalQueries..........false
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/facenet?characterEncoding=utf-8&useSSL=false&useUnicode=true&serverTimezone=GMT%2B8
+2020-02-20 13:42:33,512 DEBUG [main] com.zaxxer.hikari.HikariConfig : leakDetectionThreshold..........0
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : maxLifetime.....................1800000
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : maximumPoolSize.................10
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : metricRegistry..................none
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : metricsTrackerFactory...........none
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : minimumIdle.....................10
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : password........................<masked>
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : poolName........................"HikariPool-1"
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : readOnly........................false
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : registerMbeans..................false
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : scheduledExecutor...............none
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : schema..........................none
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : threadFactory...................internal
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : transactionIsolation............default
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : username........................"root"
+2020-02-20 13:42:33,513 DEBUG [main] com.zaxxer.hikari.HikariConfig : validationTimeout...............5000
+2020-02-20 13:42:33,513 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-02-20 13:42:34,527 DEBUG [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Failed to create/setup connection: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-02-20 13:42:34,530 DEBUG [main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:43)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:60)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:67)
+	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.getTables(InformationExtractorJdbcDatabaseMetaDataImpl.java:333)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:120)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:65)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:320)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1237)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.cqmckj.FacenetApplication.main(FacenetApplication.java:18)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 48 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 51 common frames omitted
+2020-02-20 13:43:34,378 INFO  [main] com.cqmckj.FacenetApplication : Starting FacenetApplication on YL with PID 2080 (E:\ideaWorkspace\facenet\target\classes started by Administrator in E:\ideaWorkspace\facenet)
+2020-02-20 13:43:34,382 INFO  [main] com.cqmckj.FacenetApplication : No active profile set, falling back to default profiles: default
+2020-02-20 13:43:35,425 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-20 13:43:35,531 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 1 JPA repository interfaces.
+2020-02-20 13:43:35,898 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-20 13:43:36,464 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 80 (http)
+2020-02-20 13:43:36,473 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-02-20 13:43:36,474 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 13:43:36,475 INFO  [main] org.apache.catalina.core.AprLifecycleListener : An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-20 13:43:36,476 INFO  [main] org.apache.catalina.core.AprLifecycleListener : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-02-20 13:43:36,476 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-20 13:43:36,476 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-20 13:43:37,514 INFO  [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-02-20 13:43:37,627 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-02-20 13:43:37,627 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3185 ms
+2020-02-20 13:43:37,776 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-20 13:43:37,830 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-20 13:43:37,942 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-20 13:43:38,019 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-02-20 13:43:38,189 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-02-20 13:43:38,199 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-20 13:43:38,720 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-20 13:43:38,726 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-20 13:43:39,701 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-20 13:43:39,758 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page: class path resource [static/index.html]
+2020-02-20 13:43:39,879 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 80 (http) with context path ''
+2020-02-20 13:43:39,881 INFO  [main] com.cqmckj.FacenetApplication : Started FacenetApplication in 6.116 seconds (JVM running for 6.852)
+2020-02-20 13:43:58,075 INFO  [main] com.cqmckj.FacenetApplication : Starting FacenetApplication on YL with PID 7284 (E:\ideaWorkspace\facenet\target\classes started by Administrator in E:\ideaWorkspace\facenet)
+2020-02-20 13:43:58,078 INFO  [main] com.cqmckj.FacenetApplication : No active profile set, falling back to default profiles: default
+2020-02-20 13:43:59,110 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-20 13:43:59,227 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105ms. Found 1 JPA repository interfaces.
+2020-02-20 13:43:59,511 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-20 13:44:00,095 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 80 (http)
+2020-02-20 13:44:00,105 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-02-20 13:44:00,106 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 13:44:00,107 INFO  [main] org.apache.catalina.core.AprLifecycleListener : An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-20 13:44:00,108 INFO  [main] org.apache.catalina.core.AprLifecycleListener : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-02-20 13:44:00,108 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-20 13:44:00,108 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-20 13:44:01,148 INFO  [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-02-20 13:44:01,266 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-02-20 13:44:01,266 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3127 ms
+2020-02-20 13:44:01,438 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-20 13:44:01,487 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-20 13:44:01,582 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-20 13:44:01,661 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-02-20 13:44:01,849 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-02-20 13:44:01,858 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-20 13:44:02,362 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-20 13:44:02,368 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-20 13:44:02,785 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-20 13:44:02,855 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page: class path resource [static/index.html]
+2020-02-20 13:44:02,971 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 80 (http) with context path ''
+2020-02-20 13:44:02,974 INFO  [main] com.cqmckj.FacenetApplication : Started FacenetApplication in 5.411 seconds (JVM running for 6.004)
+2020-02-20 13:46:05,815 INFO  [main] com.cqmckj.FacenetApplication : Starting FacenetApplication on YL with PID 836 (E:\ideaWorkspace\facenet\target\classes started by Administrator in E:\ideaWorkspace\facenet)
+2020-02-20 13:46:05,819 INFO  [main] com.cqmckj.FacenetApplication : No active profile set, falling back to default profiles: default
+2020-02-20 13:46:06,954 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-20 13:46:07,012 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 1 JPA repository interfaces.
+2020-02-20 13:46:07,251 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-20 13:46:07,866 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 80 (http)
+2020-02-20 13:46:07,880 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-02-20 13:46:07,881 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 13:46:07,882 INFO  [main] org.apache.catalina.core.AprLifecycleListener : An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-20 13:46:07,883 INFO  [main] org.apache.catalina.core.AprLifecycleListener : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-02-20 13:46:07,883 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-20 13:46:07,883 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-20 13:46:08,910 INFO  [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-02-20 13:46:09,030 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-02-20 13:46:09,030 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3145 ms
+2020-02-20 13:46:09,182 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-20 13:46:09,232 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-20 13:46:09,329 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-20 13:46:09,406 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-02-20 13:46:09,599 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-02-20 13:46:09,609 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-20 13:46:10,125 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-20 13:46:10,131 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-20 13:46:10,578 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-20 13:46:10,638 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page: class path resource [static/index.html]
+2020-02-20 13:46:10,761 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 80 (http) with context path ''
+2020-02-20 13:46:10,763 INFO  [main] com.cqmckj.FacenetApplication : Started FacenetApplication in 5.503 seconds (JVM running for 6.127)
+2020-02-20 13:46:50,833 INFO  [main] com.cqmckj.FacenetApplication : Starting FacenetApplication on YL with PID 7220 (E:\ideaWorkspace\facenet\target\classes started by Administrator in E:\ideaWorkspace\facenet)
+2020-02-20 13:46:50,837 INFO  [main] com.cqmckj.FacenetApplication : No active profile set, falling back to default profiles: default
+2020-02-20 13:46:51,975 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-20 13:46:52,039 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 1 JPA repository interfaces.
+2020-02-20 13:46:52,298 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-20 13:46:52,873 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 80 (http)
+2020-02-20 13:46:52,883 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-02-20 13:46:52,883 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 13:46:52,885 INFO  [main] org.apache.catalina.core.AprLifecycleListener : An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-20 13:46:52,885 INFO  [main] org.apache.catalina.core.AprLifecycleListener : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-02-20 13:46:52,885 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-20 13:46:52,885 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-20 13:46:53,917 INFO  [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-02-20 13:46:54,034 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-02-20 13:46:54,035 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3110 ms
+2020-02-20 13:46:54,196 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-20 13:46:54,244 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-20 13:46:54,336 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-20 13:46:54,418 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-02-20 13:46:54,622 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-02-20 13:46:54,633 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-20 13:46:55,142 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-20 13:46:55,147 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-20 13:46:55,567 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-20 13:46:55,629 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page: class path resource [static/index.html]
+2020-02-20 13:46:55,766 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 80 (http) with context path ''
+2020-02-20 13:46:55,769 INFO  [main] com.cqmckj.FacenetApplication : Started FacenetApplication in 5.595 seconds (JVM running for 6.258)
+2020-02-20 13:47:14,582 INFO  [http-nio-80-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 13:47:14,582 INFO  [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-02-20 13:47:14,620 INFO  [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 38 ms
+2020-02-20 13:52:20,483 INFO  [main] com.cqmckj.FacenetApplication : Starting FacenetApplication on YL with PID 3108 (E:\ideaWorkspace\facenet\target\classes started by Administrator in E:\ideaWorkspace\facenet)
+2020-02-20 13:52:20,486 INFO  [main] com.cqmckj.FacenetApplication : No active profile set, falling back to default profiles: default
+2020-02-20 13:52:21,552 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-20 13:52:21,636 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73ms. Found 1 JPA repository interfaces.
+2020-02-20 13:52:21,912 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-20 13:52:22,491 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 80 (http)
+2020-02-20 13:52:22,501 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-02-20 13:52:22,501 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 13:52:22,503 INFO  [main] org.apache.catalina.core.AprLifecycleListener : An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-20 13:52:22,503 INFO  [main] org.apache.catalina.core.AprLifecycleListener : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-02-20 13:52:22,503 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-20 13:52:22,503 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-20 13:52:23,530 INFO  [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-02-20 13:52:23,639 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-02-20 13:52:23,639 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3067 ms
+2020-02-20 13:52:23,787 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-20 13:52:23,835 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-20 13:52:23,924 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-20 13:52:24,002 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-02-20 13:52:24,223 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-02-20 13:52:24,233 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-20 13:52:24,753 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-20 13:52:24,759 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-20 13:52:25,170 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-20 13:52:25,230 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page: class path resource [static/index.html]
+2020-02-20 13:52:25,354 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 80 (http) with context path ''
+2020-02-20 13:52:25,356 INFO  [main] com.cqmckj.FacenetApplication : Started FacenetApplication in 5.408 seconds (JVM running for 6.017)
+2020-02-20 13:52:49,323 INFO  [http-nio-80-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 13:52:49,323 INFO  [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-02-20 13:52:49,331 INFO  [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 8 ms
+2020-02-20 13:55:21,507 INFO  [main] com.cqmckj.FacenetApplication : Starting FacenetApplication on YL with PID 7312 (E:\ideaWorkspace\facenet\target\classes started by Administrator in E:\ideaWorkspace\facenet)
+2020-02-20 13:55:21,512 INFO  [main] com.cqmckj.FacenetApplication : No active profile set, falling back to default profiles: default
+2020-02-20 13:55:22,683 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-20 13:55:22,769 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77ms. Found 1 JPA repository interfaces.
+2020-02-20 13:55:23,042 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-20 13:55:23,654 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 80 (http)
+2020-02-20 13:55:23,668 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-02-20 13:55:23,669 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 13:55:23,671 INFO  [main] org.apache.catalina.core.AprLifecycleListener : An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-20 13:55:23,671 INFO  [main] org.apache.catalina.core.AprLifecycleListener : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-02-20 13:55:23,671 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-20 13:55:23,672 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-20 13:55:24,710 INFO  [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-02-20 13:55:24,825 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-02-20 13:55:24,825 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3223 ms
+2020-02-20 13:55:24,972 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-20 13:55:25,020 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-20 13:55:25,117 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-20 13:55:25,196 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-02-20 13:55:25,395 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-02-20 13:55:25,404 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-20 13:55:25,912 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-20 13:55:25,919 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-20 13:55:26,334 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-20 13:55:26,397 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page: class path resource [static/index.html]
+2020-02-20 13:55:26,549 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 80 (http) with context path ''
+2020-02-20 13:55:26,551 INFO  [main] com.cqmckj.FacenetApplication : Started FacenetApplication in 5.644 seconds (JVM running for 6.272)
+2020-02-20 13:55:36,869 INFO  [http-nio-80-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 13:55:36,869 INFO  [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-02-20 13:55:36,875 INFO  [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 6 ms
+2020-02-20 13:55:38,558 INFO  [http-nio-80-exec-1] com.cqmckj.controller.FaceNetController : USE_TIME-findFace: 1507
